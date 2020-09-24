@@ -7,7 +7,7 @@
     grid-gap: 7rem;
 }
 
-%svg {
+%format_for_all {
     font-size: 1.5rem;
     margin-left: 2rem;
 
@@ -69,9 +69,9 @@
     &__location,
     &__rooms { margin-top: 2.5rem; }
 
-    &__location { @extend %svg; }
-    &__rooms { @extend %svg; }
-    &__area { @extend %svg; }
-    &__price { @extend %svg; }
+    &__location { @extend %format_for_all; }
+    &__rooms { @extend %format_for_all; }
+    &__area { @extend %format_for_all; }
+    &__price { @extend %format_for_all; }
     &__btn { grid-column: 1 / -1; }
 }
